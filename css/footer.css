@@ -1,0 +1,35 @@
+.footer-block {
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-chatting {
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+  margin: 4px;
+  width: 250px;
+}
+
+
+.footer-chatting input {
+  border: none;
+  width: 210px;
+  height: 20px;
+}
+
+.footer-chatting input::placeholder {
+  color: gainsboro;
+}
+
+.footer-chatting img {
+  width: 20px;
+}
+
+.footer-icons img {
+  width: 30px;
+  padding: 10px;
+}

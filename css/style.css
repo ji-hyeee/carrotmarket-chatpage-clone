@@ -1,0 +1,11 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "reset.css";
+
+body {
+  border-radius: 15px;
+  padding: 5px;
+  margin: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
