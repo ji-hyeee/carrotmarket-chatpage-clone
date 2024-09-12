@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <section class="info-bar">
+      <div class="info-bar__icons">
+        <img src="assets/arrow.svg" alt="arrow">
+      </div>
+      <div class="info-bar__user">
+        <div class="info-bar__user-section">
+          <div class="info-bar__user__name">코딩맘</div>
+          <div class="info-bar__user__tem">36.5˚C</div>
+        </div>
+
+        <div class="info-bar__user__time">보통 1시간 이내 응답</div>
+      </div>
+      <div class="info-bar__icons">
+        <img src="assets/phone.svg" alt="phone">
+      </div>
+      <div class="info-bar__icons">
+        <img src="assets/ellipsis.svg" alt="ellipsis">
+      </div>
+    </section>
+    <section class="info-goods">
+      <div class="info-goods__img"></div>
+      <div class="info-goods__text">
+        <div class="info-goods__title">HTML 팔아요</div>
+        <div class="info-goods__price">100만원</div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="chat">
+      <ul class="chat-user">
+      </ul>
+      <!-- <div class="chat-other">
+        <div class="chat-other__user"></div>
+        <div class="chat-other__text">네 가능해요 그때 봬요!</div>
+        <div class="chat-other__time">오후 3:45</div>
+      </div> -->
+    </section>
+    <section class="promise">
+      <div class="promise-block">
+        <div class="promise-title">
+          <div class="promise-title__icon"></div>
+          <div class="promise-title__date">9월 5일 (목) 오후 7:00</div>
+        </div>
+        <div class="promise-detail">코딩맘님이 거래 약속을 설정했어요.</div>
+      </div>
+      <div class="promise-alret">약속 시간 30분 전에 코딩맘님에게 알림이 울릴 거예요.</div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-block">
+      <div class="footer-icons">
+        <img src="assets/plus.svg" alt="plus">
+      </div>
+      <form id="chat-form">
+        <div class="footer-chatting">
+          <input type="text" id="chat-input" placeholder="메시지를 입력하세요" required>
+        </div>
+        <div class="footer-icons">
+          <button id="chat-submit " type="submit">전송</button>
+        </div>
+      </form>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>

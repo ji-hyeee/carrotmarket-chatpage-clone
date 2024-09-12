@@ -1,0 +1,45 @@
+.footer-block {
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#chat-form {
+  display: flex;
+  align-items: center;
+  width: 93vw;
+}
+
+.footer-chatting {
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+  margin: 4px;
+  width: 100%;
+}
+
+
+.footer-chatting input {
+  border: none;
+  width: 100%;
+  height: 20px;
+}
+
+.footer-chatting input::placeholder {
+  color: gainsboro;
+}
+
+.footer-chatting img {
+  width: 20px;
+}
+
+.footer-icons {
+  width: 7vw;
+}
+
+.footer-icons img {
+  width: 30px;
+  padding: 10px;
+}
